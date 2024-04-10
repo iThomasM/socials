@@ -21,10 +21,12 @@ div {
     align-items: center; 
     flex-direction: column;
     height: calc(100% - 100px); 
+    
 
 }
 .link-container a{
     display: inline-block;
+    position: relative;
     width: 250px;
     height: 80px;
     margin: 10px;
@@ -41,13 +43,16 @@ div {
                 0 0 1px #09ff00
 }
 
-
 .twitch:hover{
-    background-color: blueviolet;
+    background-color: #9344fe;
     transition: 0.4s;
-
 }
+
 .yt1:hover{
+    background-color: red;
+    transition: 0.4s;
+}
+.yt2:hover{
     background-color: red;
     transition: 0.4s;
 }
