@@ -15,6 +15,17 @@ div {
     text-align: center; 
 }
 
+.navbar{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 40px ;
+    padding: 25px;
+    box-shadow: 0 0 10px #09ff00,
+                0 0 1px #09ff00;
+}
+
 .link-container {
     display: flex;
     justify-content: center; 
@@ -40,7 +51,8 @@ div {
     line-height: 80px;
     outline: 2px solid green;
     box-shadow: 0 0 10px #09ff00,
-                0 0 1px #09ff00
+                0 0 1px #09ff00;
+    transition: 0.4s;
 }
 
 @media only screen and (max-width: 600px) {
@@ -50,20 +62,28 @@ div {
 }
 
 .twitch:hover{
-    background-color: #9344fe;
-    transition: 0.4s;
+    outline: 2px solid purple;
+    box-shadow: 0 0 10px plum,
+                0 0 1px plum;
+    padding: 5px 15px;
 }
 
 .yt1:hover{
-    background-color: red;
-    transition: 0.4s;
+    outline: 2px solid red;
+    box-shadow: 0 0 10px rgb(255, 97, 97),
+                0 0 1px rgb(255, 97, 97);
+    padding: 5px 15px;
 }
 
 .ct1:hover{
-    background-color: red;
-    transition: 0.4s;
+    outline: 2px solid red;
+    box-shadow: 0 0 10px rgb(255, 97, 97),
+                0 0 1px rgb(255, 97, 97);
+    padding: 5px 15px;
 }
 .ig:hover{
-    background-color: rgb(207, 62, 111);
-    transition: 0.4s;
+    outline: 2px solid palevioletred;
+    box-shadow: 0 0 10px plum,
+                0 0 1px plum;
+    padding: 5px 15px;
 }
