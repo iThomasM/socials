@@ -43,6 +43,12 @@ div {
                 0 0 1px #09ff00
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px; /* Adjust this for smaller screens */
+    }
+}
+
 .twitch:hover{
     background-color: #9344fe;
     transition: 0.4s;
