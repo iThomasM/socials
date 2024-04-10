@@ -53,6 +53,10 @@ div {
     transition: 0.4s;
 }
 
+.ct1:hover{
+    background-color: red;
+    transition: 0.4s;
+}
 .ig:hover{
     background-color: rgb(207, 62, 111);
     transition: 0.4s;
