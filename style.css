@@ -53,7 +53,7 @@ div {
     transition: 0.4s;
 }
 .navbar a.active{
-    color: green
+    color: #09ff00
 }
 
 .link-container {
