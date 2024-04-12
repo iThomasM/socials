@@ -49,11 +49,24 @@ div {
 
 .navbar a:hover{
     color:#09ff00;
-    font-size: 105%;
     transition: 0.4s;
 }
 .navbar a.active{
     color: #09ff00
+}
+
+.discord-icon {
+    margin-right: 15px;
+}
+
+.discord-icon img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.discord-icon img:hover{
+    transform: scale(1.2)
 }
 
 .link-container {
@@ -71,7 +84,7 @@ div {
     width: 250px;
     height: 80px;
     margin: 10px;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 550;
     text-decoration: none;
