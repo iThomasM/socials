@@ -45,8 +45,6 @@ div {
     text-shadow: black 1px 1px;
 }
 
-
-
 .navbar a:hover{
     color:#09ff00;
     transition: 0.4s;
@@ -130,3 +128,43 @@ div {
                 0 0 1px plum;
     padding: 5px 15px;
 }
+.title {
+    margin-top: 100px; /* Add margin to the top to push the title to the top of the container */
+    align-items: center;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.home {
+    display: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    max-width: 50%; 
+    height: 100%;
+    margin: 0 auto; 
+    background-color: rgba(63, 63, 63, 0.952);
+    overflow: auto;
+    border-radius: 30px;
+    outline: 3px solid green;
+    box-shadow: 0 0 20px #09ff00,
+                0 0 2px #09ff00;
+}
+
+.content{
+    -webkit-text-fill-color: white;
+    align-items: center;
+    text-shadow: 2px 2px grey;
+}
+
+iframe{
+    width: 80%;
+    height: 550px;
+    border-radius: 20px;
+    outline: 3px solid grey;
+    box-shadow: 0 0 20px;
+}
+
+
+
+
