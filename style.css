@@ -101,7 +101,12 @@ div {
       font-size: 14px; /* Adjust this for smaller screens */
     }
 }
-
+.fiverr:hover{
+    outline: 2px solid yellow;
+    box-shadow: 0 0 10px peachpuff,
+                0 0 1px peachpuff;
+    padding: 5px 15px;
+}
 .twitch:hover{
     outline: 2px solid purple;
     box-shadow: 0 0 10px plum,
