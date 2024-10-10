@@ -139,11 +139,13 @@ div {
     font-size: 50px;
 }
 .home {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     display: auto;
     align-items: center;
     justify-content: center;
     padding: 20px; 
-    max-width: 50%; 
+    max-width: 90%; 
     height: 100%;
     margin: 0 auto; 
     background-color: rgba(63, 63, 63, 0.952);
@@ -157,7 +159,6 @@ div {
 .content{
     -webkit-text-fill-color: white;
     align-items: center;
-    text-shadow: 2px 2px grey;
 }
 
 iframe{
