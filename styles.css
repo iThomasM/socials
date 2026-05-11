@@ -3,7 +3,8 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 40px 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 
@@ -19,11 +20,16 @@ body {
 .container {
     background-color: #1a1a1a;
     width: 400px;
+    max-width: 90%;
     border: 2px solid rgb(217, 253, 183);
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(0, 48, 15);
     text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 20px 0;
 }
 
 .profile-img {
@@ -61,6 +67,7 @@ h2 {
     align-items: center;  
     gap: 12px;            
     margin: 12px 0;
+    flex-wrap: wrap;
 }
 
 .icon-button {
