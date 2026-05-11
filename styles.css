@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    background-image: url('img/spidey.png'); 
+    background-size: 100%;      
+    background-position: center;
+    background-repeat: repeat-y;
+    position: relative;
+    backdrop-filter: blur(8px);
+}
+
+
+.container {
+    background-color: #1a1a1a;
+    width: 400px;
+    border: 2px solid rgb(217, 253, 183);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 48, 15);
+    text-align: center;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgb(217, 253, 183);
+    margin: 0 auto 20px auto; 
+    display: block;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+p {
+    color: #cccccc;
+    margin: 5px 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #555;
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.link-row {
+    display: flex;
+    align-items: center;  
+    gap: 12px;            
+    margin: 12px 0;
+}
+
+.icon-button {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbffb2;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.icon-button:hover {
+    background-color: #97bb6e;
+    transform: scale(1.1);
+}
+
+.icon-button img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;  
+}
+
+.link-text {
+    margin: 0;
+    line-height: 1.2;
+    flex: 1;               
+    text-align: left;
+    white-space: nowrap;  
+    overflow: hidden;       
+    text-overflow: ellipsis; 
+}
+
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
